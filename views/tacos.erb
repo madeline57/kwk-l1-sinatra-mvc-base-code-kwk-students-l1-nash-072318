@@ -1,0 +1,28 @@
+<html>
+<h1>"i love a good taco"</h1>
+<p>
+    my hometown is <%=@hometown%>
+</p>
+<p>
+  <%= @a + @b %>
+  
+</p>
+<h2>
+    "this is cool"
+</h2>
+<p>
+    my name is <%=@name%>
+</p>
+<p>
+    i'm going to pick a number from 1 to 100
+</p>
+<p> 
+    <%=@rand=rand(1...100)%>
+</p>
+<p> the random number i picked is <% if @rand%2 == 0%>
+    <%="even"%>
+    <%else%>
+    <%="odd"%>
+    <%end %>
+</p>
+</html>
